@@ -26,9 +26,10 @@ def image_find_click(image, g, c):
     return a, b
 
 
+#time.sleep(10)
 p.hotkey("ctrl", "t")
 time.sleep(.1)
-image_find_click("Images\\rewards.jpg", True, False)
+#image_find_click("Images\\rewards.jpg", True, False)
 time.sleep(.1)
 p.hotkey("alt", "f")
 time.sleep(.5)
@@ -63,3 +64,7 @@ time.sleep(.1)
 image_find_click("Images\\google_drop.jpg", True, False)
 time.sleep(.1)
 p.hotkey("ctrl", "w")
+#to compile into .exe
+#pip install pyinstaller
+#pyinstaller -f MSRewards.py
+#check if .exe is in the same folder as Images folder if not move it there

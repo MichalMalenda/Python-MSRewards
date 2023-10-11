@@ -66,5 +66,5 @@ time.sleep(.1)
 p.hotkey("ctrl", "w")
 #to compile into .exe
 #pip install pyinstaller
-#pyinstaller -f MSRewards.py
+#pyinstaller -F MSRewards.py
 #check if .exe is in the same folder as Images folder if not move it there
